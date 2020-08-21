@@ -62,8 +62,6 @@
   
   
   
-    <link rel="stylesheet" href="/css/vdonate.css" >
-  
 
 <meta name="generator" content="Hexo 5.0.2"></head>
 
@@ -127,27 +125,6 @@
                         } else {
                           imageTag1.style.height = document.body.clientHeight + "px";
                           imageTag1.style.marginLeft = -(document.body.clientHeight * img1.width / img1.height - document.body.clientWidth) / 2 + "px";
-                        }
-                      };
-                  </script>
-                
-                  
-                    <div class="item">
-                  
-                    <img id="carousel-img2" src="https://source.unsplash.com/collection/954550/1920x1080">
-                  </div>
-
-                  <!-- 自适应大图 -->
-                  <script>
-                      var img2 = new Image();
-                      var imageTag2 = document.getElementById("carousel-img2");
-                      img2.src = imageTag2.src;
-                      img2.onload=function(){
-                        if (img2.width / img2.height <= document.body.clientWidth / document.body.clientHeight) {
-                          imageTag2.style.width = document.body.clientWidth + "px";
-                        } else {
-                          imageTag2.style.height = document.body.clientHeight + "px";
-                          imageTag2.style.marginLeft = -(document.body.clientHeight * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
                         }
                       };
                   </script>
@@ -295,14 +272,7 @@
         <p class="article-excerpt-content">
           使用hexo+GitHub搭建博客搭建过程可参考此视频
 1.申请GitHub账号2.创建博客仓库
-3.安装nodejs4.安装git5.安装hexo并搭建博客框架npm install -g hexo-cli //全局安装hexo
-hexo init //初始化博客框架
-npm install //安装组件
-hexo g //编译框架
-hexo s //本地预览
-hexo d //推送框架
-hexo clean //清理框架
-npm install https://github.com/7...
+3.安装nodejs4.安装git5.安装hexo并搭建博客框架12345678npm install -g hexo-cli &#x2F;&#x2F;全局安装hexo    hexo init &#x2F;&#x2F;初始化博客框架    npm install &#x2F;&#x2F;安装组件    hexo g &#x2F;&#x2F;编译框架    hexo s &#x2F;&#x2F...
         </p>
         <p class="article-more-link">
           <a href="/2020/08/20/test/#more">Read More</a>
